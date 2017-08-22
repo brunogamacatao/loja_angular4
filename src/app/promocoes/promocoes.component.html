@@ -1,0 +1,3 @@
+<div *ngFor="let p of produtos">
+  <app-produto [produto]="p" *ngIf="p.estoque > 0"></app-produto>
+</div>

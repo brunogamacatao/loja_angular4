@@ -1,0 +1,8 @@
+<ul>
+  <li>
+    <a routerLink="/">Início</a>
+  </li>
+  <li *ngFor="let c of categorias">
+    <a [routerLink]="c.slug">{{c.nome}}</a>
+  </li>
+</ul>

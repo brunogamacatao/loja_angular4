@@ -1,0 +1,4 @@
+<h2>{{produto.nome}}</h2>
+<img [src]="produto.foto">
+<h3>Valor: {{produto.valor|currency:'BRL':true}}</h3>
+<button (click)="comprar()">Comprar</button>
